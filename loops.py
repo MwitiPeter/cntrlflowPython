@@ -27,3 +27,13 @@ for color in colors:
     else:
         print("Not found!")
 
+#using while loop
+
+whcolors =["blue","yellow","black","white","brown"]
+mywhcolors = "brown"
+
+length = len(whcolors)
+count = 0
+
+while count < length:
+    print(whcolors[count])
